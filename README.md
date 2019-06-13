@@ -8,6 +8,7 @@ src/ -- Elm source code
 static/ -- Static page content
 
 #### Building
+First run the `setup.sh` which sets up the pre_commit script
 
 You need the Elm compiler to build the source, uglify to optimize for deployment, elm-live to start a development server.
 
