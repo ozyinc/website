@@ -30,7 +30,3 @@ jobs:
     - name: Run Hugo
       run: hugo
     
-    - name: Deploy to GitHub
-      uses: JamesIves/github-pages-deploy-action@3.4.8
-      with:
-        folder: public
