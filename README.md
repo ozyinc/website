@@ -2,10 +2,8 @@
 
 The page is under construction 
 
-#### Structure
-* public/ -- Compiled output (is included for GitHub Pages)
-* src/ -- Elm source code
-* static/ -- Static page content
+#### Dev live server
+Run the dev server like any other hugo project by `hugo server`.
 
-#### Building
-
+#### Deployment
+Run `hugo` and deploy the directory public to whatever platform you want to have your website on.
