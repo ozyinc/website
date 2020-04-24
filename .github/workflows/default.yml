@@ -25,4 +25,4 @@ jobs:
         BRANCH: master
         FOLDER: public
         REPOSITORY_NAME: ozyinc/ozyinc.github.io
-        GITHUB_TOKEN: ${{secrets.ACCESS_DEPLOYMENT}}
+        ACCESS_TOKEN: ${{secrets.ACCESS_DEPLOYMENT}}
