@@ -73,3 +73,22 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "About Me"
     url = "about/"
     weight = 20
+
+[languages.en]
+    languageName = "English"
+    weight = 1
+[languages.tr]
+    languageName = "Türkçe"
+    weight = 2
+
+[languages.tr.params]
+    homeSubtitle = "Başka bir geliştirici daha"
+[[languages.tr.menu.main]]
+    name = "Bazı düşünceler (İngilizce)"
+    url = "../blog/"
+    weight = 10
+
+[[languages.tr.menu.main]]
+    name = "Ben kimim?"
+    url = "about/"
+    weight = 20
