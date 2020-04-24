@@ -26,3 +26,5 @@ jobs:
         FOLDER: public
         REPOSITORY_NAME: ozyinc/ozyinc.github.io
         ACCESS_TOKEN: ${{secrets.ACCESS_DEPLOYMENT}}
+      env:
+        ACTIONS_STEP_DEBUG: true
