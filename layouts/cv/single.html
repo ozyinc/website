@@ -1,0 +1,73 @@
+{{ define "head" }}
+{{ if .Site.Params.bgImg -}}
+<style>.bg-img {
+    background-image: url('{{.Site.Params.bgImg}}');
+}</style>
+{{- else if .Site.Params.images -}}
+{{- range first 1 .Site.Params.images -}}
+<style>.bg-img {
+    background-image: url('{{. | absURL}}');
+}</style>
+{{- end -}}
+{{- end -}}
+{{ end }}
+
+{{ define "header" }}
+{{ partial "header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+{{ $style := resources.Get "css/cv.css" | minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<div id="page-wrap">
+    {{- with .Params.img}}
+    <img src="{{.}}" alt="Photo of {{.Site.Author.name}}" id="pic"/>
+    {{- end }}
+    <div id="contact-info" class="vcard">
+
+        <!-- Microformats! -->
+        <nav style="float: right" id="cv-nav">
+
+          <a href='{{"/cv" | absURL }}' id="cv-link-basic">Basic</a>
+          <a href='{{"/cv-detailed" | absURL}}' id="cv-link-detailed">Detailed</a>
+          </nav>
+        <h1 class="fn">{{.Site.Author.name}}</h1>
+
+        <p>
+            {{- with .Site.Params.phone}}
+            <i class="fas fa-phone"></i> <span class="tel"><a href="tel:{{.}}">{{.}}</a></span><br/>
+            {{- end}}
+            {{- with .Site.Params.email}}
+            <i class="fas fa-envelope"></i> <a class="email" href="mailto:{{.}}">{{.}}</a>
+            {{- end}}
+            {{- with .Params.extra}}
+            {{range $extra := .}}
+            <i class="{{.icon}}"></i> <a rel="nofollow" href="{{.link}}" target="_blank"> {{.text}}</a>
+            {{end}}
+            {{- end}}
+
+        </p>
+    </div>
+    <div id="objective">
+        <p>
+            {{.Page.Description}}
+        </p>
+    </div>
+
+    <div class="clear"></div>
+    <dl>
+        {{.Content}}
+
+    </dl>
+
+    <div class="clear"></div>
+</div>
+
+{{ $collapsibleJS := resources.Get "js/collapsible.js" | minify | fingerprint "sha256" }}
+<script src="{{$collapsibleJS.Permalink}}" integrity="{{$collapsibleJS.Data.integrity}}"></script>
+{{ end }}
+
+{{ define "footer" }}
+{{ partialCached "footer.html" . }}
+{{ end }}

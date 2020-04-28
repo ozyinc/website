@@ -12,6 +12,8 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
+[markup.goldmark.renderer]
+  unsafe = true
 
 [author]
   name = "Ozan İncesulu"
@@ -33,6 +35,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   homeSubtitle = "Just another developer"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  email = "ozan.incesulu@gmail.com"
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
