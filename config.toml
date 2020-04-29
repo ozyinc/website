@@ -3,7 +3,7 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Ozan İncesulu"
 theme = "hermit"
-# enableGitInfo = true
+enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
@@ -24,7 +24,7 @@ googleAnalytics = "UA-164775157-1"
   dateform        = "2 Jan 2006"
   dateformShort   = "2 Jan"
   dateformNum     = "02-01-2006"
-  dateformNumTime = "15:04 02-01-2006 (GMT -0700)"
+  dateformNumTime = "02-01-2006"
 
   # Metadata mostly used in document's head
   # description = ""
@@ -36,7 +36,7 @@ googleAnalytics = "UA-164775157-1"
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
+  gitUrl = "https://github.com/ozyinc/website/commit/"
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.

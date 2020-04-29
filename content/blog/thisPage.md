@@ -1,6 +1,7 @@
 ---
 title: Creating my website in Github Pages using Hugo
 date: 2020-04-24
+ype: posts
 ---
 
 ### Background
