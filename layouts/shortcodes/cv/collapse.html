@@ -1,1 +1,1 @@
-<button class="collapsible detail">{{.Get "title"}}</button><div class="collapsible-content">{{.Inner}}</div>
+<button class="collapsible detail">{{.Get "title"}}</button><div class="collapsible-content">{{.Inner}}</div><span class="detail-link" id='{{- with .Parent }}{{.Get "title"|anchorize}}{{- end}}'> More details available at <a href='{{"/cv-detailed" |absURL}}'> detailed CV</a>. </span>

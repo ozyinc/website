@@ -76,7 +76,7 @@ I developed an app for search optimization and cluster management.
 <br>
 
 ### Software Engineering Intern
-##### [Sierra Nevada Corp. (ESEN System Integration)](https://www.esensi.com.tr/en/) (June 2016-July 2016) {{%right%}} Ankara, Turkey {{% /right %}}
+##### [Sierra Nevada Corp. (ESENSI)](https://www.esensi.com.tr/en/) (June 2016-July 2016) {{%right%}} Ankara, Turkey {{% /right %}}
 
 I have worked on multisensor data fusion project by developing a simulation and middleware compliant to the OMG DDS (Data Distribution Service) standard for communication between different nodes. 
 
@@ -130,13 +130,20 @@ I took many courses during my studies in METU CENG department from basic CS cour
    I have also learned about the scope resolution of different OOP languages and different types of argument passing used in different languages. I have also learned about how C arrays have a weird quirk about whether they are a type or not in the language's type system and what lazy evaluation is.
 {{< /cv/collapse >}}
 {{< cv/collapse title="Algorithms (CENG315)" >}}
-   
+   On the algorithms course I have learned about the details of various graph and string algorithms.
 {{< /cv/collapse >}}
-{{< cv/collapse title="Computer Organization (CENG31)" >}}
+{{< cv/collapse title="Computer Organization (CENG331)" >}}
+   This course has been a very delightful one to learn, considering that it was the second step in understanding how computers function internally (after Logic Design). Starting from basic addition to details on CPU functionality and caches.
+    
+   The homeworks given for this course have been some of the many creative homeworks that I have seen in my academical career, reading a binary program to defuse a bomb, hacking a binary using buffer overflow and return oriented programming, optimizing matrix multiplication to use available caches and increase it's speed at least 4 times.   
 {{< /cv/collapse >}}
 {{< cv/collapse title="Data Management and File Structures (CENG351)" >}}
+    This course was mainly about SQL databases work and how files are stored in various systems. I took this course after having a decent experience in SQL and fairly good knowledge on inodes and storage mechanisms of OS, since I already took Operating Systems class. However, in this course I have learned about storage of block data and how indexes built (with B+ Trees).
 {{< /cv/collapse >}}
 {{< cv/collapse title="Introduction to Operating Systems (CENG334)" >}}
+    As a sequel to CENG331, I have learned about mechanisms that operating systems use to execute programs in a secure and fast manner, while allocating resources to different programs executing in (pseudo-)parallel in a way that there is no deadlock.
+    
+   Also in this course I have learned about processes, threads and synchronization between those. This has contributed a better understanding to me about how locks and semaphores work. Furthermore I have enjoyed reading and solving the problems in Little Book of Semaphores, and the MINIX book by Andrew S. Tannenbaum afterwards (even though I never got to finish it).
 {{< /cv/collapse >}}
 {{< cv/collapse title="Data Communications and Networking (CENG435)" >}}
 {{< /cv/collapse >}}
@@ -144,7 +151,16 @@ I took many courses during my studies in METU CENG department from basic CS cour
 {{< /cv/collapse >}}
 {{< /cv/collapse >}}
 
+{{< cv/collapse title="Extracurricular Activities" >}}
 
-During my time at METU I took an active role in many different student societies and hosted some events regarding those. Some of the societies I have joined are:
-* METU Young Entrepreneurs Society (METU YES)
+During my time at METU I took an active role in many different student societies and hosted some events regarding those. Some societies I have participated in:
+{{< cv/collapse title="METU Young Entrepreneurs Society (METU YES)" >}}
+
+{{< /cv/collapse >}}
+{{< cv/collapse title="METU Computer Club (METU CCLUB)" >}}
+Even though I didn't directly contribute to the club by attending to meetings, I have helped them develop their website with a better admin interface, and I have written some articles to their e-journal e-Bergi.
+
+The articles that I wrote (in Turkish) during my undergrad studies can be found [here](https://e-bergi.com/yazar/ozan-incesulu/). 
+{{< /cv/collapse >}}
+{{< /cv/collapse >}}
 {{% /cv/section %}}
