@@ -1,6 +1,7 @@
 ---
 title: Creating my website in Github Pages using Hugo
 date: 2020-04-24
+type: posts
 ---
 
 ### Background
@@ -31,5 +32,20 @@ I have selected a theme that I liked, and I started writing content to my first 
 Unfortunately, for Github Pages, if you are trying to build a page for yourself (in form of \<username\>.github.io), you can't use Github Pages to full extend. You only can have Github Page (pun intended :sweat_smile:), with the HTML content present at the root of the repository and all the code served from that root. There is no way to customize the serve path or branch (for project pages or organization pages you can specify a different branch or folder FYI.). I preferred to not to have the generated artifacts and source code for my page exist on the same location for maintainability, clear coding and easy deployment (considering Hugo and Jekyll both dump the generated content into a folder named `public`). Therefore, I have created another repository, moved all the code for my site there and update the page repository whenever I push new things to `master` of the code repo.
 
 ### Final Touch: Github Actions!
+In order to automate the deployment of my page I have added a Github Pipeline to build the page and do a commit to the actual website repo. I have used some already prepared steps to run my pipeline, namely [Github Checkout (default for all actions)](https://github.com/actions/checkout), [Hugo Actions](https://github.com/peaceiris/actions-hugo) and [Github Pages Deploy Action](https://github.com/JamesIves/github-pages-deploy-action).
 
-#### TODO
+At first, I tried creating deploy keys or personal tokens to be used in Deploy action, however Github didn't allow access even when I provide the token with all authorization it needs to change and deploy the repo. Thus, upon consulting the documentation of the Deploy Action, I have learned that by using [SSH Agent Action](https://github.com/webfactory/ssh-agent) I can login to GitHub with SSH. This approach worked wonderfully.
+
+As the last problem, the theme I have used for this site was not present when the page was deployed, which I fixed by adding the `submodules: recursive` argument to the Checkout action [here](https://github.com/ozyinc/website/blob/master/.github/workflows/default.yml#L16)
+
+In the end I finally have a automated pipeline for deploying my page.
+
+### Bonus: Cloudflare
+Before I started building my page, I knew that [Cloudflare](https://cloudflare.com) offers a free plan, in which you can get your website's assets cached and be served from whenever the users access your page from. I know that the Github Pages already use CDN to serve pages, however I have seen CloudFlare perform better than Github, since their caches are more widespread (especially in Turkey, where I reside). Therefore I have created a free account, redirected the DNS and did few configurations.
+
+Aaandd... everything blew up. Apparently the CSS optimizer of Hugo and Cloudflare don't agree on what a minified CSS should feature, thus when Cloudflare re-optimized my CSS files when serving from its cache, the integrity check has failed and none of the styles were rendered. I fixed this by turning CSS optimization off on Cloudflare's side since Hugo already did a good job at minifying and fingerprinting my CSS.
+
+### Conclusion
+In the end, I have archived everything that I wanted to have; a simple, nice-looking, light website, continuous deployment and the extensibility I need. I hope you enjoyed reading this article and maybe it is helpful to someone that wants to build a similar website.
+
+Have a nice day! 
