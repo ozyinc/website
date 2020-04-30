@@ -1,7 +1,7 @@
 ---
 title: Ozan İncesulu's Curriculum Vitae
 date: 2020-04-25
-description:  I am a newgrad from one of the top universities of Turkey and I have worked in 3 different companies as full-stack engineer and machine learning intern. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems and microservices. I also enjoy reading tech books, watching conferences and I try to apply the principles learned from them to my code.
+description:  I am a new grad from one of the top universities of Turkey and I have worked in 3 different companies as full-stack engineer and machine learning intern. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems and microservices. I also enjoy reading tech books, watching conferences, and I try to apply the principles learned from them to my code.
 type: cv
 layout: single
 extra: [
@@ -135,7 +135,7 @@ I took many courses during my studies in METU CENG department from basic CS cour
 {{< cv/collapse title="Computer Organization (CENG331)" >}}
    This course has been a very delightful one to learn, considering that it was the second step in understanding how computers function internally (after Logic Design). Starting from basic addition to details on CPU functionality and caches.
     
-   The homeworks given for this course have been some of the many creative homeworks that I have seen in my academical career, reading a binary program to defuse a bomb, hacking a binary using buffer overflow and return oriented programming, optimizing matrix multiplication to use available caches and increase it's speed at least 4 times.   
+   The homework given for this course have featured some of the many creative tasks that I have seen in my academical career, reading a binary program to defuse a bomb, hacking a binary using buffer overflow and return oriented programming, optimizing matrix multiplication to use available caches and increase its speed at least 4 times.   
 {{< /cv/collapse >}}
 {{< cv/collapse title="Data Management and File Structures (CENG351)" >}}
     This course was mainly about SQL databases work and how files are stored in various systems. I took this course after having a decent experience in SQL and fairly good knowledge on inodes and storage mechanisms of OS, since I already took Operating Systems class. However, in this course I have learned about storage of block data and how indexes built (with B+ Trees).
@@ -153,9 +153,12 @@ I took many courses during my studies in METU CENG department from basic CS cour
 
 {{< cv/collapse title="Extracurricular Activities" >}}
 
-During my time at METU I took an active role in many different student societies and hosted some events regarding those. Some societies I have participated in:
+During my time at METU I took an active role in many student societies and hosted some events regarding those. Some societies I have participated in:
 {{< cv/collapse title="METU Young Entrepreneurs Society (METU YES)" >}}
+I was a member of the society for 3 years, of which I was the IT coordinator for 1.5 years. During my time I took responsibility on organizing many events (like Crystal Tree Awarding Ceremony, Entrepreneurship and Engineering Summit and NASA Space Apps Challenge) and interviews and maintained and improved the infrastructure needs of the society. 
 
+During my time in the society I got to know many people from my university and from the entrepreneurship ecosystem in Turkey. Furthermore, I have gained experience in creating and developing web solutions and learned from my mistakes (including accidentally wiping an SQL database with a wrong query on production :sweat_smile: ). (TODO: Write an article about experience)
+ 
 {{< /cv/collapse >}}
 {{< cv/collapse title="METU Computer Club (METU CCLUB)" >}}
 Even though I didn't directly contribute to the club by attending to meetings, I have helped them develop their website with a better admin interface, and I have written some articles to their e-journal e-Bergi.
