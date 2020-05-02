@@ -1,0 +1,5 @@
+{{if findRE "detail" .Page.Permalink | len | eq 1}}
+<i>Used Languages/Libraries/Technologies include:</i>
+{{$params := .Params}}{{range $t_index, $t_val := .Params}}{{ $arg := split $t_val ": " }}
+{{ $name := index $arg 0 }}{{ $url := index $arg 1 }}<a href='{{$url}}' >{{$name}}</a>{{ if (sub (len $params) 1) | ne $t_index }},{{end}} {{end}}
+{{end}}

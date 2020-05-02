@@ -1,0 +1,1 @@
+{{if findRE "detail" .Page.Permalink | len | eq 1}}<button class="collapsible">{{.Get "title"}}</button><div class="collapsible-content">{{.Inner}}</div>{{else}} {{if .Get "isFirst" | ne ""}}More details available at <a href='{{"/cv-detailed" |absURL}}#{{- with .Parent }}{{.Get "title"|anchorize}}{{- end}}'> detailed CV</a>. {{end}}{{end}}

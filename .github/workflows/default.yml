@@ -1,35 +1,35 @@
 name: CI
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    push:
+        branches: [ master ]
+    pull_request:
+        branches: [ master ]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        submodules: recursive
+        steps:
+            -   uses: actions/checkout@v2
+                with:
+                    submodules: recursive
 
-    - name: Hugo Setup
-      uses: peaceiris/actions-hugo@v2.4.10
+            -   name: Hugo Setup
+                uses: peaceiris/actions-hugo@v2.4.10
 
-    - name: Run Hugo
-      run: hugo
-    
-    - name: Install SSH Client 🔑
-      uses: webfactory/ssh-agent@v0.2.0
-      with:
-        ssh-private-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
- 
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.4.8
-      with:
-        BRANCH: master
-        FOLDER: public
-        REPOSITORY_NAME: ozyinc/ozyinc.github.io
-        SSH: true
+            -   name: Run Hugo
+                run: hugo --gc --minify
+
+            -   name: Install SSH Client 🔑
+                uses: webfactory/ssh-agent@v0.2.0
+                with:
+                    ssh-private-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+
+            -   name: Deploy to GitHub Pages
+                uses: JamesIves/github-pages-deploy-action@3.4.8
+                with:
+                    BRANCH: master
+                    FOLDER: public
+                    REPOSITORY_NAME: ozyinc/ozyinc.github.io
+                    SSH: true
