@@ -88,13 +88,13 @@ I have worked on multisensor data fusion project by developing a simulation and 
 <br>
 
 ### Undergraduate Teaching Assistant
-##### [Middle East Technical University, Department of Computer Engineering](https://ceng.metu.edu.tr/) (October 2015 - May 2017) {{%right%}} Ankara, Turkey {{%/right%}}
+##### [METU CENG](https://ceng.metu.edu.tr/) (October 2015 - May 2017) {{%right%}} Ankara, Turkey {{%/right%}}
 I helped fellow engineering candidates from different departments to have a better grasp of C in the scope of METU CENG230 (Introduction to C Programming) course.
 {{% /cv/section %}}
 
 {{% cv/section title="Education" %}}
 ### Bachelor of Science in Computer Engineering
-#### [Middle East Technical University, Department of Computer Engineering](https://ceng.metu.edu.tr/) {{%right%}} 1 October 2014 - 17 June 2019 {{%/right%}}
+#### [METU CENG](https://ceng.metu.edu.tr/) {{%right%}} 1 October 2014 - 17 June 2019 {{%/right%}}
 <br>
 
 **cGPA: 3.54**
@@ -136,7 +136,7 @@ I took many courses during my studies in METU CENG department from basic CS cour
 {{< cv/collapse title="Computer Organization (CENG331)" >}}
    This course has been a very delightful one to learn, considering that it was the second step in understanding how computers function internally (after Logic Design). Starting from basic addition to details on CPU functionality and caches.
     
-   The homework given for this course have featured some of the many creative tasks that I have seen in my academical career, reading a binary program to defuse a bomb, hacking a binary using buffer overflow and return oriented programming, optimizing matrix multiplication to use available caches and increase its speed at least 4 times.   
+   The homework given for this course have featured some of many creative tasks that I have seen in my academical career, reading a binary program to defuse a bomb, hacking a binary using buffer overflow and return oriented programming, optimizing matrix multiplication to use available caches and increase its speed at least 4 times.   
 {{< /cv/collapse >}}
 {{< cv/collapse title="Data Management and File Structures (CENG351)" >}}
     This course was mainly about SQL databases work and how files are stored in various systems. I took this course after having a decent experience in SQL and fairly good knowledge on inodes and storage mechanisms of OS, since I already took Operating Systems class. However, in this course I have learned about storage of block data and how indexes built (with B+ Trees).
@@ -144,17 +144,21 @@ I took many courses during my studies in METU CENG department from basic CS cour
 {{< cv/collapse title="Introduction to Operating Systems (CENG334)" >}}
     As a sequel to CENG331, I have learned about mechanisms that operating systems use to execute programs in a secure and fast manner, while allocating resources to different programs executing in (pseudo-)parallel in a way that there is no deadlock.
     
-   Also in this course I have learned about processes, threads and synchronization between those. This has contributed a better understanding to me about how locks and semaphores work. Furthermore I have enjoyed reading and solving the problems in Little Book of Semaphores, and the MINIX book by Andrew S. Tannenbaum afterwards (even though I never got to finish it).
+   Also in this course I have learned about processes, threads and synchronization between those. This has contributed a better understanding to me about how locks and semaphores work. Furthermore, I have enjoyed reading and solving the problems in Little Book of Semaphores, and the MINIX book by Andrew S. Tannenbaum afterwards (even though I never got to finish it).
 {{< /cv/collapse >}}
 {{< cv/collapse title="Data Communications and Networking (CENG435)" >}}
 
-   Before taking this course I had fairly good knowledge about different high-level protocols, like HTTP(S), FTP, SSH, Telnet, etc. and a faint idea on how the internal mechanisms worked. During this course I had the opportunity to learn how each networking layer functions, various different protocols and their efficiencies. As a Computer Engineering course, the course had some details on how the low-level signal is transmitted from the cable but obviously we haven't dive deep into the specifics of the physics (I was told that Electronic Engineers have a more comprehensive course on that). 
+   Before taking this course I had fairly good knowledge about different high-level protocols, like HTTP(S), FTP, SSH, Telnet, etc. and a faint idea on how the internal mechanisms worked. During this course I had the opportunity to learn how each networking layer functions, various different protocols and their efficiencies. As a Computer Engineering course, the course had some details on how the low-level signal is transmitted from the cable but obviously we didn't dive deep into the specifics of the physics (I was told that Electronic Engineers have a more comprehensive course on that). 
    
    With this course, I was able to understand the current implementations of some widely used protocols like TCP, UDP, IP, DHCP. The understanding allowed me to better evaluate current technologies we have, have a better understanding of networking components of cloud systems and their security and decreased the entry barrier for understanding new standards of protocols like HTTP/3.
  
 {{< /cv/collapse >}}
 {{< cv/collapse title="Computer Engineering Design (CENG491-CENG492)" >}}
    
+   This course (also known as the graduation project) has allowed me to use the things that I have learned by myself and during my internship at Stylelounge to create a product with a team of fellow senior students. The main aim of the course was not to deliver a production-ready app but just to create an MVP to showcase the product. For the details of project visit: {{< todo >}}.
+   
+   With this course I had my first challenge on being part of a team and discussing architectural choices for a greenfield project for the first time. I have built greenfield projects before in my life (especially for METU YES and Stylelounge) but the scope was limited to a few components, and the team size of those projects were 1 (myself) with occasional discussions with my fellow engineers and my supervisor.
+
 {{< /cv/collapse >}}
 {{< /cv/collapse >}}
 
@@ -165,7 +169,7 @@ During my time at METU I took an active role in many student societies and hoste
 {{< cv/collapse title="METU Young Entrepreneurs Society (METU YES)" >}}
 I was a member of the society for 3 years, of which I was the IT coordinator for 1.5 years. During my time I took responsibility on organizing many events (like Crystal Tree Awarding Ceremony, Entrepreneurship and Engineering Summit and NASA Space Apps Challenge) and interviews and maintained and improved the infrastructure needs of the society. 
 
-During my time in the society I got to know many people from my university and from the entrepreneurship ecosystem in Turkey. Furthermore, I have gained experience in creating and developing web solutions and learned from my mistakes (including accidentally wiping an SQL database with a wrong query on production :sweat_smile: ). (TODO: Write an article about experience)
+During my time in the society I got to know many people from my university and from the entrepreneurship ecosystem in Turkey. Furthermore, I have gained experience in creating and developing web solutions and learned from my mistakes (including accidentally wiping an SQL database with a wrong query on production :sweat_smile: ). I have further described my experience with those here: {{< todo >}}
  
 {{< /cv/collapse >}}
 
@@ -175,4 +179,43 @@ Even though I didn't directly contribute to the club by attending to meetings, I
 The articles that I wrote (in Turkish) during my undergrad studies can be found [here](https://e-bergi.com/yazar/ozan-incesulu/). 
 {{< /cv/collapse >}}
 {{< /cv/collapse >}}
+{{< cv/detail>}}
+### High School Diploma
+#### [METU DF High School](https://www.odtugvo.k12.tr/ankara/) {{%right%}} 2010 - 13 June 2014 {{%/right%}}
+<br>
+
+**Graduation Grade: 88.13/100**
+
+I was placed at the top %0.1 in the university entrance examination in 2014.
+
+During my high school years I have participated in various MUN and EYP conferences (TIMUN'11, MUNESCO'11, TIMUN'12, SAIMUN'13, OLUF'13). I was also a member of the Biology Olympiad Team of my school for 2,5 years.
+
+{{< /cv/detail >}}
+{{% /cv/section %}}
+{{% cv/section title="References" %}}
+
+* ## Sergey Chekanskiy {{%cv/linkedin profile="sergeychekanskiy"%}}
+  Current CDO of WunderMobility, former CDO of Stylelounge
+* ## Alexander Thiel {{%cv/linkedin profile="reasn"%}}
+  Current CTO of WunderMobility, former CTO of Stylelounge
+  
+  *Recommendation letter available on request*
+* ## Çağrı Karahan {{%cv/linkedin profile="cagrikarahan"%}}
+  Head of Product Development at eBay
+* ## Aysel Sözen {{%cv/linkedin profile="aysel-tatar-sözen-a1229339"%}}
+  Technical Lead in ESENSI
+  
+  *Recommendation (in Turkish) available in [my LinkedIn](https://www.linkedin.com/in/ozan-incesulu/)*
+{{% /cv/section %}}
+{{% cv/section title="Miscellaneous"%}}
+The topics that interest me professionally are system architecture design, DevOps, machine learning, data analytics and scripting languages.
+
+Apart from the professional life; I am currently learning neuroscience and philosophy (Nietzsche is my favorite), I enjoy watching documentaries and sitcoms (mostly through Netflix), I listen to podcasts over Spotify (I would recommend Command Line Heroes and The Economist Radio) I play tennis and go skiing whenever I find the time for it. 
+
+My native language is Turkish, I am proficient in English (TOEFL: 113/120), I know Spanish enough to understand the language (B1), and I have a basic knowledge of German (A1).
+
+I enjoy coding in Python, have a love/hate relationship with Javascript, however enjoy coding in Elm whenever I can. Think that I'm also fairly good at C, SQL and Java. I am interested in learning different programming languages, and would be fairly excited about any job opportunities if they were to include Rust, Go or C# other than previously mentioned languages. 
+{{%cv/detail%}}
+I have also completed courses regarding robotics and learning from Coursera and edX.
+{{%/cv/detail%}}
 {{% /cv/section %}}
