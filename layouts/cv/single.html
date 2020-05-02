@@ -64,8 +64,6 @@
     <div class="clear"></div>
 </div>
 
-{{ $collapsibleJS := resources.Get "js/collapsible.js" | minify | fingerprint "sha256" }}
-<script src="{{$collapsibleJS.Permalink}}" integrity="{{$collapsibleJS.Data.integrity}}"></script>
 {{ end }}
 
 {{ define "footer" }}

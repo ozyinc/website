@@ -1,0 +1,2 @@
+{{ $customJS := resources.Get "js/custom.js" | minify | fingerprint "sha256" }}
+<script src="{{$customJS.Permalink}}" integrity="{{$customJS.Data.Integrity}}"></script>

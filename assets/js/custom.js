@@ -9,7 +9,7 @@ for (const collapsible of document.getElementsByClassName("collapsible")) {
             content.style.maxHeight = "initial";
         }
     });
-}
+};
 
 for (const link of document.links) {
     if (link.hostname !== window.location.hostname) {
