@@ -27,7 +27,7 @@
     <div id="contact-info" class="vcard">
 
         <!-- Microformats! -->
-        <nav style="float: right" id="cv-nav">
+        <nav id="cv-nav" class="float-right">
         {{$detailed := findRE "detail" .Page.Permalink | len | eq 1}}
           <a href='{{"/cv" | absURL }}' {{if not $detailed}} class="selected"{{end}}>Basic</a>
           <a href='{{"/cv-detailed" | absURL}}' {{if $detailed}} class="selected"{{end}}>Detailed</a>
@@ -36,14 +36,14 @@
 
         <p>
             {{- with .Site.Params.phone}}
-            <i class="fas fa-phone"></i> <span class="tel"><a href="tel:{{.}}">{{.}}</a></span><br/>
+            <span class="cv-header-item"><i class="fas fa-phone"></i> <span class="tel"><a href="tel:{{.}}">{{.}}</a></span></span><br/>
             {{- end}}
             {{- with .Site.Params.email}}
-            <i class="fas fa-envelope"></i> <a class="email" href="mailto:{{.}}">{{.}}</a>
+            <span class="cv-header-item"><i class="fas fa-envelope"></i> <a class="email" href="mailto:{{.}}">{{.}}</a></span>
             {{- end}}
             {{- with .Params.extra}}
             {{range $extra := .}}
-            <i class="{{.icon}}"></i> <a href="{{.link}}" > {{.text}}</a>
+            <span class="cv-header-item"><i class="{{.icon}}"></i> <a href="{{.link}}" > {{.text}}</a></span>
             {{end}}
             {{- end}}
 
