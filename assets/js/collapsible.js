@@ -11,28 +11,9 @@ for (const collapsible of document.getElementsByClassName("collapsible")) {
     });
 }
 
-const cvDetailed = window.location.href.includes("detailed");
-for (const detailsElement of document.getElementsByClassName("detail")) {
-    detailsElement.style.display = cvDetailed ? "block" : "none";
-}
-const detailIds = {};
-for (const detailsLink of document.getElementsByClassName("detail-link")) {
-    detailsLink.style.display = "none";
-    if(!cvDetailed && !detailIds[detailsLink.id]) {
-        detailIds[detailsLink.id] = 1;
-        detailsLink.style.display = "block";
-    }
-}
-
-if (cvDetailed) {
-    document.getElementById("cv-link-detailed").classList.add("selected");
-} else {
-    document.getElementById("cv-link-basic").classList.add("selected");
-}
-
 for (const link of document.links) {
     if (link.hostname !== window.location.hostname) {
         link.target = "_blank";
-        link.rel = "nofollow,noopener"
+        link.rel = "nofollow,noopener";
     }
 }

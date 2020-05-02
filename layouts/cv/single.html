@@ -28,9 +28,9 @@
 
         <!-- Microformats! -->
         <nav style="float: right" id="cv-nav">
-
-          <a href='{{"/cv" | absURL }}' id="cv-link-basic">Basic</a>
-          <a href='{{"/cv-detailed" | absURL}}' id="cv-link-detailed">Detailed</a>
+        {{$detailed := findRE "detail" .Page.Permalink | len | eq 1}}
+          <a href='{{"/cv" | absURL }}' {{if not $detailed}} class="selected"{{end}}>Basic</a>
+          <a href='{{"/cv-detailed" | absURL}}' {{if $detailed}} class="selected"{{end}}>Detailed</a>
           </nav>
         <h1 class="fn">{{.Site.Author.name}}</h1>
 

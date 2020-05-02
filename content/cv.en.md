@@ -100,7 +100,8 @@ I helped fellow engineering candidates from different departments to have a bett
 **cGPA: 3.54**
  
 I have graduated from METU CENG with a High Honor degree, and a ranking of 13 out of 207 students.
-{{< cv/collapse title="Courses" >}}
+
+{{< cv/collapse title="Courses" isFirst="1">}}
 
 I took many courses during my studies in METU CENG department from basic CS courses to Spanish and Psychology, and listing all here would be unnecessary. However, some highlights that made me a better developer are: 
 
@@ -146,20 +147,28 @@ I took many courses during my studies in METU CENG department from basic CS cour
    Also in this course I have learned about processes, threads and synchronization between those. This has contributed a better understanding to me about how locks and semaphores work. Furthermore I have enjoyed reading and solving the problems in Little Book of Semaphores, and the MINIX book by Andrew S. Tannenbaum afterwards (even though I never got to finish it).
 {{< /cv/collapse >}}
 {{< cv/collapse title="Data Communications and Networking (CENG435)" >}}
+
+   Before taking this course I had fairly good knowledge about different high-level protocols, like HTTP(S), FTP, SSH, Telnet, etc. and a faint idea on how the internal mechanisms worked. During this course I had the opportunity to learn how each networking layer functions, various different protocols and their efficiencies. As a Computer Engineering course, the course had some details on how the low-level signal is transmitted from the cable but obviously we haven't dive deep into the specifics of the physics (I was told that Electronic Engineers have a more comprehensive course on that). 
+   
+   With this course, I was able to understand the current implementations of some widely used protocols like TCP, UDP, IP, DHCP. The understanding allowed me to better evaluate current technologies we have, have a better understanding of networking components of cloud systems and their security and decreased the entry barrier for understanding new standards of protocols like HTTP/3.
+ 
 {{< /cv/collapse >}}
 {{< cv/collapse title="Computer Engineering Design (CENG491-CENG492)" >}}
+   
 {{< /cv/collapse >}}
 {{< /cv/collapse >}}
 
 {{< cv/collapse title="Extracurricular Activities" >}}
 
 During my time at METU I took an active role in many student societies and hosted some events regarding those. Some societies I have participated in:
+
 {{< cv/collapse title="METU Young Entrepreneurs Society (METU YES)" >}}
 I was a member of the society for 3 years, of which I was the IT coordinator for 1.5 years. During my time I took responsibility on organizing many events (like Crystal Tree Awarding Ceremony, Entrepreneurship and Engineering Summit and NASA Space Apps Challenge) and interviews and maintained and improved the infrastructure needs of the society. 
 
 During my time in the society I got to know many people from my university and from the entrepreneurship ecosystem in Turkey. Furthermore, I have gained experience in creating and developing web solutions and learned from my mistakes (including accidentally wiping an SQL database with a wrong query on production :sweat_smile: ). (TODO: Write an article about experience)
  
 {{< /cv/collapse >}}
+
 {{< cv/collapse title="METU Computer Club (METU CCLUB)" >}}
 Even though I didn't directly contribute to the club by attending to meetings, I have helped them develop their website with a better admin interface, and I have written some articles to their e-journal e-Bergi.
 
