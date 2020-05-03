@@ -1,7 +1,7 @@
 ---
 title: Ozan İncesulu's Curriculum Vitae
 date: 2020-04-25
-description:  I am a new grad from one of the top universities of Turkey and I have worked in 3 different companies as full-stack engineer and machine learning intern. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems and microservices. I also enjoy reading tech books, watching conferences, and I try to apply the principles learned from them to my code.
+description:  I am a new grad from one of the top universities of Turkey and I have worked in 3 different companies as a full-stack engineer and a machine learning intern. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems and microservices. I also enjoy reading tech books, watching conferences, and I try to apply the principles learned from them to my code.
 type: cv
 layout: single
 extra: [
@@ -78,11 +78,11 @@ I developed an app for search optimization and cluster management.
 ### Software Engineering Intern
 ##### [Sierra Nevada Corp. (ESENSI)](https://www.esensi.com.tr/en/) (June 2016-July 2016) {{%right%}} Ankara, Turkey {{% /right %}}
 
-I have worked on multisensor data fusion project by developing a simulation and middleware compliant to the OMG DDS (Data Distribution Service) standard for communication between different nodes. 
+I have worked on a multisensor data fusion project by developing a simulation and middleware compliant to the OMG DDS (Data Distribution Service) standard for communication between different nodes. 
 
 {{< cv/technologies
 "Java: https://www.java.com/en/"
-"RTI Connexant DDS: https://www.rti.com/products/connext-dds-professional"
+"RTI Connext DDS: https://www.rti.com/products/connext-dds-professional"
 >}}
 
 <br>
@@ -103,10 +103,10 @@ I have graduated from METU CENG with a High Honor degree, and a ranking of 13 ou
 
 {{< cv/collapse title="Courses" isFirst="1">}}
 
-I took many courses during my studies in METU CENG department from basic CS courses to Spanish and Psychology, and listing all here would be unnecessary. However, some highlights that made me a better developer are: 
+I took many courses during my studies in the METU CENG department from basic CS courses to Spanish and Psychology, and listing all here would be unnecessary. However, some highlights that made me a better developer are: 
 
 {{< cv/collapse title="Introduction to Computer Engineering Concepts (CENG111)" >}}
-   This introductory course was the first course among many that I took during my studies has introduced me to the fundamentals of computer science and engineering. During this course I have learned: 
+   This introductory course was the first course among many that I took during my studies that introduced me to the fundamentals of computer science and engineering. During this course I have learned: 
    * fundamental functionality of a basic CPU, which was astonishing on how it reflects the general functionalities and issues regarding computer programming (mainly robustness and step-by-step execution of programs).
    * basics of recursion and iteration, and how to map one to other, considering the implications that this has for dynamic programming and many other algorithms I would personally consider this the best contribution.
    * basics of complexity analysis
@@ -115,18 +115,18 @@ I took many courses during my studies in METU CENG department from basic CS cour
 
 {{< /cv/collapse >}}
 {{< cv/collapse title="C Programming (CENG140)" >}}
-   As the second course about CENG that I took, this course has introduced me to the C language and it's low-level complex beauty. While learning how to write efficient code and managing dynamic memory, our instructor has also introduced us to how the memory in a computer is managed and what parts do programs have, answering many questions that I had while learning Python. Even though most of the topics were merely an introduction to the concepts and ideas of the programming languages and operating systems courses in the future, it has succeeded in creating an overall idea and appreciation of the hardships of the field that our predecessors has faced regarding basic optimization.
+   As the second course about CENG that I took, this course has introduced me to the C language and it's low-level complex beauty. While learning how to write efficient code and managing dynamic memory, our instructor has also introduced us to how the memory in a computer is managed and what parts do programs have, answering many questions that I had while learning Python. Even though most of the topics were merely an introduction to the concepts and ideas of the programming languages and operating systems courses in the future, it has succeeded in creating an overall idea and appreciation of the hardships of the field that our predecessors have faced regarding basic optimization.
 {{< /cv/collapse >}}
 {{< cv/collapse title="Logic Design (CENG232)" >}}
    I took this course in my first year, and it provided a better understanding of the actual implementation of various parts of the computer, starting with a few logic gates and adding clocks to provide sequential execution. With this course I have learned how specific mechanisms needed for a computer's functionality can be realized, and it also introduced me to FPGA programming using Verilog.
 {{< /cv/collapse >}}
 {{< cv/collapse title="Data Structures (CENG213)" >}}
-   This course, even if it has covered many basic data structures (like stacks, queues, linked list, trees, arrays, etc...), has a special place in my memory, due to its detailed insights on workings of hash tables. With this course I have obtained information that has proven to be worthy a lot on different hashing techniques and algorithms determining the overflow strategy, that allowed me to reason about their usage in different scenarios and places.  
+   This course, even if it has covered many basic data structures (like stacks, queues, linked list, trees, arrays, etc...), has a special place in my memory, due to its detailed insights on workings of hash tables.With this course I learned a lot of different hashing techniques and algorithms determining the overflow strategy, that allowed me to reason about their usage in different scenarios and places.
 {{< /cv/collapse >}}
 {{< cv/collapse title="Programming Language Concepts (CENG242)" >}}
    Within this course, I was first introduced to core ideas of different programming paradigms.
    
-   Especially the ideas behind [Haskell](https://www.haskell.org/) has amazed me since it was my first encounter with a language, that doesn't inherit C-style programming (even if one might argue some aspects of Python) or doesn't follow imperative (also object-oriented) mind set of thinking about code. Another aspect was the idea of pure functions (Monads or IO was out of the scope of the course) and the type system. I was familiar with the idea that using functions one can emulate the same process of a Turing machine according to Church-Turing hypothesis, however realizing there is a large ecosystem based on Church's ideas has also been an important revelation.
+   Especially the ideas behind [Haskell](https://www.haskell.org/) have amazed me since it was my first encounter with a language that doesn't inherit C-style programming (even if one might argue some aspects of Python) or doesn't follow an imperative (also object-oriented) mind set of thinking about code. Another aspect was the idea of pure functions (Monads or IO was out of the scope of the course) and the type system. I was familiar with the idea that using functions one can emulate the same process of a Turing machine according to the Church-Turing hypothesis, however realizing there is a large ecosystem based on Church's ideas has also been an important revelation.
    
    I have also learned about the scope resolution of different OOP languages and different types of argument passing used in different languages. I have also learned about how C arrays have a weird quirk about whether they are a type or not in the language's type system and what lazy evaluation is.
 {{< /cv/collapse >}}
@@ -136,7 +136,7 @@ I took many courses during my studies in METU CENG department from basic CS cour
 {{< cv/collapse title="Computer Organization (CENG331)" >}}
    This course has been a very delightful one to learn, considering that it was the second step in understanding how computers function internally (after Logic Design). Starting from basic addition to details on CPU functionality and caches.
     
-   The homework given for this course have featured some of many creative tasks that I have seen in my academical career, reading a binary program to defuse a bomb, hacking a binary using buffer overflow and return oriented programming, optimizing matrix multiplication to use available caches and increase its speed at least 4 times.   
+   The homework given for this course have featured some of many creative tasks that I have seen in my academic career, reading a binary program to defuse a bomb, hacking a binary using buffer overflow and return oriented programming, optimizing matrix multiplication to use available caches and increase its speed at least 4 times.   
 {{< /cv/collapse >}}
 {{< cv/collapse title="Data Management and File Structures (CENG351)" >}}
     This course was mainly about SQL databases work and how files are stored in various systems. I took this course after having a decent experience in SQL and fairly good knowledge on inodes and storage mechanisms of OS, since I already took Operating Systems class. However, in this course I have learned about storage of block data and how indexes built (with B+ Trees).
@@ -155,7 +155,7 @@ I took many courses during my studies in METU CENG department from basic CS cour
 {{< /cv/collapse >}}
 {{< cv/collapse title="Computer Engineering Design (CENG491-CENG492)" >}}
    
-   This course (also known as the graduation project) has allowed me to use the things that I have learned by myself and during my internship at Stylelounge to create a product with a team of fellow senior students. The main aim of the course was not to deliver a production-ready app but just to create an MVP to showcase the product. For the details of project visit: {{< todo >}}.
+   This course (also known as the graduation project) has allowed me to use the things that I have learned by myself and during my internship at Stylelounge to create a product with a team of fellow senior students. The main aim of the course was not to deliver a production-ready app but just to create an MVP to showcase the product. For the details of the project visit: {{< todo >}}.
    
    With this course I had my first challenge on being part of a team and discussing architectural choices for a greenfield project for the first time. I have built greenfield projects before in my life (especially for METU YES and Stylelounge) but the scope was limited to a few components, and the team size of those projects were 1 (myself) with occasional discussions with my fellow engineers and my supervisor.
 
@@ -167,16 +167,16 @@ I took many courses during my studies in METU CENG department from basic CS cour
 During my time at METU I took an active role in many student societies and hosted some events regarding those. Some societies I have participated in:
 
 {{< cv/collapse title="METU Young Entrepreneurs Society (METU YES)" >}}
-I was a member of the society for 3 years, of which I was the IT coordinator for 1.5 years. During my time I took responsibility on organizing many events (like Crystal Tree Awarding Ceremony, Entrepreneurship and Engineering Summit and NASA Space Apps Challenge) and interviews and maintained and improved the infrastructure needs of the society. 
+I was a member of the society for 3 years, of which I was the IT coordinator for 1.5 years. During my time I took responsibility for organizing many events (like Crystal Tree Awarding Ceremony, Entrepreneurship and Engineering Summit and NASA Space Apps Challenge) and interviews and maintained and improved the infrastructure needs of the society. 
 
 During my time in the society I got to know many people from my university and from the entrepreneurship ecosystem in Turkey. Furthermore, I have gained experience in creating and developing web solutions and learned from my mistakes (including accidentally wiping an SQL database with a wrong query on production :sweat_smile: ). I have further described my experience with those here: {{< todo >}}
  
 {{< /cv/collapse >}}
 
 {{< cv/collapse title="METU Computer Club (METU CCLUB)" >}}
-Even though I didn't directly contribute to the club by attending to meetings, I have helped them develop their website with a better admin interface, and I have written some articles to their e-journal e-Bergi.
+Even though I didn't directly contribute to the club by attending the meetings, I have helped them develop their website with a better admin interface, and I have written some articles to their e-journal e-Bergi.
 
-The articles that I wrote (in Turkish) during my undergrad studies can be found [here](https://e-bergi.com/yazar/ozan-incesulu/). 
+The articles that I wrote (in Turkish) during my undergraduate studies can be found [here](https://e-bergi.com/yazar/ozan-incesulu/). 
 {{< /cv/collapse >}}
 {{< /cv/collapse >}}
 {{< cv/detail>}}
@@ -199,13 +199,13 @@ During my high school years I have participated in various MUN and EYP conferenc
 * ## Alexander Thiel {{%cv/linkedin profile="reasn"%}}
   Current CTO of WunderMobility, former CTO of Stylelounge
   
-  *Recommendation letter available on request*
+  *Recommendation letter available on request.*
 * ## Çağrı Karahan {{%cv/linkedin profile="cagrikarahan"%}}
   Head of Product Development at eBay
 * ## Aysel Sözen {{%cv/linkedin profile="aysel-tatar-sözen-a1229339"%}}
   Technical Lead in ESENSI
   
-  *Recommendation (in Turkish) available in [my LinkedIn](https://www.linkedin.com/in/ozan-incesulu/)*
+  *Recommendation (in Turkish) available in [my LinkedIn](https://www.linkedin.com/in/ozan-incesulu/).*
 {{% /cv/section %}}
 {{% cv/section title="Miscellaneous"%}}
 The topics that interest me professionally are system architecture design, DevOps, machine learning, data analytics and scripting languages.
