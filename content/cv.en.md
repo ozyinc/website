@@ -22,6 +22,16 @@ extra: [
 * **Front-end development** with Angular, Elm, HTML, CSS and various libraries.
 {{% /cv/section %}}
 {{% cv/section title="Experience"%}}
+### Freelancer
+#### (September 2019 - Current)
+I am currently working as a freelancer, helping companies and startups build the products they need. Some of my work include:
+* Development of the curriculum for an SEO module of an Erasmus+ project targeting export specialists.
+* Creation of calculators, focused on meeting the needs of people regarding current events, using various Web APIs and integrations.
+    
+    One prominent example of such calculators is, during the COVID-19 crisis, I have created calculators that allow people to calculate their needs regarding high demand products, such as toilet paper and hand sanitizer. I was later informed that those calculators were used by thousands of people worldwide.
+
+<br>
+
 ### Data Science Intern
 ##### Stylelounge (July 2018 - September 2018) {{% right %}} Hamburg, Germany{{% /right %}}
 Created a pipeline to enhance images and collect relevant product information with image processing, computer vision, machine learning, deep learning, SVM and random forests.
