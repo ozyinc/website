@@ -27,9 +27,9 @@ extra: [
 I am currently working as a freelancer, helping companies and startups build the products they need. Some of my work include:
 * Development of the curriculum for an SEO module of an Erasmus+ project targeting export specialists.
 * Creation of calculators, focused on meeting the needs of people regarding current events, using various Web APIs and integrations.
-    
-    One prominent example of such calculators is, during the COVID-19 crisis, I have created calculators that allow people to calculate their needs regarding high demand products, such as toilet paper and hand sanitizer. I was later informed that those calculators were used by thousands of people worldwide.
-
+    {{%cv/detail%}}    
+  <br>One prominent example of such calculators is, during the COVID-19 crisis, I have created calculators that allow people to calculate their needs regarding high demand products, such as toilet paper and hand sanitizer. I was later informed that those calculators were used by thousands of people worldwide.
+    {{%/cv/detail%}}
 <br>
 
 ### Data Science Intern
