@@ -14,6 +14,8 @@ for (const collapsible of document.getElementsByClassName("collapsible")) {
 for (const link of document.links) {
     if (link.hostname !== window.location.hostname) {
         link.target = "_blank";
-        link.rel = "nofollow,noopener";
+        link.rel = "nofollow,noopener,noreferrer";
+    } else {
+        link.rel = "noopener";
     }
 }
