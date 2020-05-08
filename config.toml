@@ -95,3 +95,12 @@ googleAnalytics = "UA-164775157-1"
     name = "Ben kimim?"
     url = "about/"
     weight = 20
+
+[privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+
+[privacy.disqus]
+    disable = true
+
