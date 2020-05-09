@@ -165,9 +165,18 @@ I took many courses during my studies in the METU CENG department from basic CS 
 {{< /cv/collapse >}}
 {{< cv/collapse title="Computer Engineering Design (CENG491-CENG492)" >}}
    
-   This course (also known as the graduation project) has allowed me to use the things that I have learned by myself and during my internship at Stylelounge to create a product with a team of fellow senior students. The main aim of the course was not to deliver a production-ready app but just to create an MVP to showcase the product. For the details of the project visit: {{< todo >}}.
+   This course (also known as the graduation project) has allowed me to use the things that I have learned by myself and during my internship at Stylelounge to create a product with a team of fellow senior students. The main aim of the course was not to deliver a production-ready app but just to create an MVP to showcase the product. For the details of the project you may visit the project's page [here](https://senior.ceng.metu.edu.tr/2019/cow/).
    
    With this course I had my first challenge on being part of a team and discussing architectural choices for a greenfield project for the first time. I have built greenfield projects before in my life (especially for METU YES and Stylelounge) but the scope was limited to a few components, and the team size of those projects were 1 (myself) with occasional discussions with my fellow engineers and my supervisor.
+
+{{< /cv/collapse >}}
+
+{{< cv/collapse title="Introduction to Machine Learning (CENG499)" >}}
+   With this course I was formally introduced with ML, the basic principles and many different algorithms with a special interest in Decision Trees, Support Vector Machines, Hidden Markov Models and Neural Networks. I believe that this course has provided me the insight for understanding and applying different mechanisms to further advance myself deep into other algorithms and advanced methodologies.
+   
+   Within this course I was asked to implement decision trees using different entropy functions, pre-pruning and post-pruning methodologies; neural networks using different error functions and layouts; support vector machines with different kernels and cross validation methods.
+   
+   I also had the opportunity to be a part of a team of 4 to tackle a real life problem that we chose. We chose to build a news article classifier after observing how many misclassifications Turkish newspaper networks have for their articles. We created a recurrent neural network using vectorization of words in the article as input, which performed better than manually selected labels provided by 2 different sources of Turkish articles.
 
 {{< /cv/collapse >}}
 {{< /cv/collapse >}}

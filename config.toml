@@ -77,6 +77,11 @@ googleAnalytics = "UA-164775157-1"
     url = "about/"
     weight = 20
 
+  [[menu.main]]
+    name = "My CV"
+    url = "cv/"
+    weight = 15
+
 [languages.en]
     languageName = "English"
     weight = 1
