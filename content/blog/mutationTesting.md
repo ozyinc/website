@@ -129,7 +129,7 @@ The code executed correctly, and I have rushed to the HTML file I generated usin
 * #### Missing tests for some boundary conditions
   The inequality replacer code has replaced some length checks with comparison operators, and the mutants survived, so another win!
 
-* #### Replacing `if __name__ == "__main__"'
+* #### Replacing `if __name__ == "__main__"`
   Well, I was actually surprised to see this turn-up, but then I realized the main file (even though it only calls a function) is included in the `src` folder, so for the next run, I will exclude it.
   
 ### Conclusions
