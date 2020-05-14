@@ -45,6 +45,13 @@ Before I started building my page, I knew that [Cloudflare](https://cloudflare.c
 
 Aaandd... everything blew up. Apparently the CSS optimizer of Hugo and Cloudflare don't agree on what a minified CSS should feature, thus when Cloudflare re-optimized my CSS files when serving from its cache, the integrity check has failed and none of the styles were rendered. I fixed this by turning CSS optimization off on Cloudflare's side since Hugo already did a good job at minifying and fingerprinting my CSS.
 
+### Bonus 2: Cloudflare Cache Control
+With a free account, Cloudflare allows creating custom page rules, that I can use to add `Cache-Control` headers to the minified CSS and JS files that Hugo generates.  I have applied Cache-Control header for 1 year with following rules:
+```url
+ozyinc.com/*.min.*.css
+ozyinc.com/*.min.*.js
+``` 
+
 ### Conclusion
 In the end, I have archived everything that I wanted to have; a simple, nice-looking, light website, continuous deployment and the extensibility I need. I hope you enjoyed reading this article and maybe it is helpful to someone that wants to build a similar website.
 

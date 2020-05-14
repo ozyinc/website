@@ -17,8 +17,8 @@
 {{ end }}
 
 {{ define "main" }}
-{{ $style := resources.Get "css/cv.css" | minify }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $style := resources.Get "css/cv.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{$style.Data.Integrity}}">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 <div id="page-wrap">
     {{- with .Params.img}}
