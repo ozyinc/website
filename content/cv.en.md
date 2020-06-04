@@ -1,7 +1,7 @@
 ---
 title: Ozan İncesulu's Curriculum Vitae
 date: 2020-04-25
-description:  I am a new grad from one of the top universities of Turkey and I have worked in 3 different companies as a full-stack engineer and a machine learning intern. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems and microservices. I also enjoy reading tech books, watching conferences, and I try to apply the principles learned from them to my code.
+description:  I have graduated from one of the top universities in Turkey and I have worked in 3 different companies as a full-stack engineer and a machine learning intern. I am currently freelancing and looking for different opportunities. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems and microservices. I also enjoy reading tech books, watching conferences, and I try to apply the principles learned from them to my code.
 type: cv
 layout: single
 extra: [
