@@ -34,7 +34,7 @@ googleAnalytics = "UA-164775157-1"
   themeColor = "#494f5c"
 
   homeSubtitle = "Just another developer"
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> | Some extra icons from <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome</a> '
   email = "ozan.incesulu@gmail.com"
   # bgImg = ""  # Homepage background-image URL
 

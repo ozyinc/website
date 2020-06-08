@@ -5,9 +5,9 @@ description:  I have graduated from one of the top universities in Turkey and I 
 type: cv
 layout: single
 extra: [
-    {icon: "fab fa-linkedin", link: "https://linkedin.com/in/ozan-incesulu", text: "/ozan-incesulu"},
-    {icon: "fab fa-github", link: "https://github.com/ozyinc/", text: "/ozyinc"},
-    {icon: "fab fa-angellist", link: "https://angel.co/u/ozan-incesulu", text: "/ozan-incesulu"}
+    {icon: "icon-linkedin-squared", link: "https://linkedin.com/in/ozan-incesulu", text: "/ozan-incesulu"},
+    {icon: "icon-github-circled", link: "https://github.com/ozyinc/", text: "/ozyinc"},
+    {icon: "icon-angellist", link: "https://angel.co/u/ozan-incesulu", text: "/ozan-incesulu"}
 ]
 
 ---

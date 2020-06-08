@@ -1,0 +1,2 @@
+{{ $style := resources.Get "css/fa-custom.css" | minify | fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous">

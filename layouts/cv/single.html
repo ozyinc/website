@@ -19,7 +19,6 @@
 {{ define "main" }}
 {{ $style := resources.Get "css/cv.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{$style.Data.Integrity}}">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 <div id="page-wrap">
     {{- with .Params.img}}
     <img src="{{.}}" alt="Photo of {{.Site.Author.name}}" id="pic"/>
@@ -36,10 +35,10 @@
 
         <p>
             {{- with .Site.Params.phone}}
-            <span class="cv-header-item"><i class="fas fa-phone"></i> <span class="tel"><a href="tel:{{.}}">{{.}}</a></span></span><br/>
+            <span class="cv-header-item"><i class="icon-phone"></i> <span class="tel"><a href="tel:{{.}}">{{.}}</a></span></span><br/>
             {{- end}}
             {{- with .Site.Params.email}}
-            <span class="cv-header-item"><i class="fas fa-envelope"></i> <a class="email" href="mailto:{{.}}">{{.}}</a></span>
+            <span class="cv-header-item"><i class="icon-mail"></i> <a class="email" href="mailto:{{.}}">{{.}}</a></span>
             {{- end}}
             {{- with .Params.extra}}
             {{range $extra := .}}
