@@ -52,6 +52,22 @@ ozyinc.com/*.min.*.css
 ozyinc.com/*.min.*.js
 ``` 
 
+### Yet another extra: How to minimize Font Awesome?
+The theme that I was using to build my website featured some icons (the social icons on the bottom right on the main page), however some icons like angellist were missing from the set.
+For custom icons I was using Font Awesome icon set (especially in my CV [here](/cv)) however I have seen that the CSS and Fonts for Font Awesome contains a lot of icons, of which most I don't use. 
+
+Therefore, to minimize the icons to those only I use, I found [Fontello](https://fontello.com/). On the website, I selected the icons I have used in my website and exported those in a file (you may download my zip [here](https://github.com/ozyinc/website/blob/master/fontello-acabefc5.zip)).
+
+Here are the steps I followed to embed the custom generated fonts:
+
+1. Put the provided CSS in the assets directory [here](https://github.com/ozyinc/website/blob/master/assets/css/fa-custom.css)
+2. Put the font files under `static/font` (Since there is nothing to be compiled for fonts, and the CSS file uses `/font` directory for locating the fonts).
+3. Make git treat font files as binary (I know some of those files are based on text, however I will not be manually editing them, thus marking them binary made more sense). The way to do this is demonstrated [here](https://github.com/ozyinc/website/blob/master/.gitattributes#L4)
+4. Import the CSS from the header (also common stuff like minifying and fingerprinting CSS). If you have a partial import in your theme that allows you to add HTML to specific places in your site structure, it is trivial to import CSS. You can look at your theme's documentation or source code to see if such partial is imported in layouts or other partials. Luckily, the theme I am using did, therefore I have added the custom CSS import in it, as you can see [here](https://github.com/ozyinc/website/blob/master/layouts/partials/extra-head.html)
+5. Rewrite the CSS classes to match the classes in your CSS. I only had the Font Awesome Icons on my CV, so I knew where I should replace `fa-*` classes to `icon-*` classes, but you might have to do a project-wide search for determining where Font Awesome is used.
+ 
+Alas, yet another [commit & push](https://github.com/ozyinc/website/commit/b985d7098398d58d86768895a0ca6d7b709cdfea), aaand my website size has been reduced by 300Kb.
+
 ### Conclusion
 In the end, I have archived everything that I wanted to have; a simple, nice-looking, light website, continuous deployment and the extensibility I need. I hope you enjoyed reading this article and maybe it is helpful to someone that wants to build a similar website.
 
