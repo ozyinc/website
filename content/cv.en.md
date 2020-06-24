@@ -220,9 +220,9 @@ During my high school years I have participated in various MUN and EYP conferenc
   
   *Recommendation letter available on request.*
 * ## Çağrı Karahan {{%cv/linkedin profile="cagrikarahan"%}}
-  Head of Product Development at eBay
+  Current Director of Engineering at Udemy, former Head of Product Development at eBay (Gittigidiyor)
 * ## Aysel Sözen {{%cv/linkedin profile="aysel-tatar-sözen-a1229339"%}}
-  Technical Lead in ESENSI
+  Technical Lead at ESENSI (Sierra Nevada Corp. Turkey)
   
   *Recommendation (in Turkish) available in [my LinkedIn](https://www.linkedin.com/in/ozan-incesulu/).*
 {{% /cv/section %}}
