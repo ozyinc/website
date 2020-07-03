@@ -21,7 +21,7 @@ other = "Bkz:"
 other = "{{ .WordCount }} Sözcük"
 
 [tableOfContents]
-other = "Dizin"
+other = "İçindekiler"
 
 [newer]
 other = "Daha yeni"

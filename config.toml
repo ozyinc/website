@@ -19,7 +19,7 @@ googleAnalytics = "UA-164775157-1"
   name = "Ozan İncesulu"
 
 [taxonomies]
-  tag = "tags"
+  # tag = "tags"
   # Categories are disabled by default.
 
 [params]
