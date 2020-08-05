@@ -98,6 +98,11 @@ googleAnalytics = "UA-164775157-1"
     weight = 10
 
 [[languages.tr.menu.main]]
+    name = "CV (İngilizce)"
+    url = "../cv/"
+    weight = 15
+
+[[languages.tr.menu.main]]
     name = "Ben kimim?"
     url = "about/"
     weight = 20
