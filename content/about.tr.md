@@ -40,7 +40,7 @@ Eylülde Milan Politeknik Üniversitesi'nde (Politecnico di Milano), Bilgisayar 
 
 ### Kişisel
 
-Boş zamanlarımda çeşitli konferansları takip eder, bitmeyen projeler geliştirir, kitap okurum (bi de arada sırada bu siteyi güncellerim :smiley: ). Uygun zaman bulabildiğimde tenis oynar, kışın kayağa gider ve genel olarak yürümeyi severim.
+Boş zamanlarımda çeşitli konferansları takip eder, bitmeyen projeler geliştirir, kitap okurum (bir de arada sırada bu siteyi güncellerim :smiley: ). Uygun zaman bulabildiğimde tenis oynar, kışın kayağa gider ve genel olarak yürümeyi severim.
 
 
 Hakkımda daha fazla detayı [CV'mde](/cv) (İngilizce) bulabilirsiniz.
