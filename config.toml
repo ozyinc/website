@@ -36,7 +36,7 @@ googleAnalytics = "UA-164775157-1"
 
   homeSubtitle = "Just another developer"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> | Some extra icons from <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome</a> '
-  email = "ozan.incesulu@gmail.com"
+  email = "contact@ozyinc.com"
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -57,6 +57,10 @@ googleAnalytics = "UA-164775157-1"
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/ozan-incesulu/"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:contact@ozyinc.com"
 
   [[params.social]]
     name = "instagram"
