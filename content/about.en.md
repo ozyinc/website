@@ -24,7 +24,7 @@ I have graduated from one of the best universities in Turkey (and leading in CS 
 
 ### Personal
 
-I enjoy watching dev talks, create projects that never end, read books, (and stare to the ceiling from time to time :sweat_smile:). I play tennis whenever I find the opportunity to, ski in the winter and take a walk when I need some distraction.
+I enjoy watching dev talks, create projects that never end, read books, (and from time to time, I update this website :smiley:). I play tennis whenever I find the opportunity to, ski in the winter and take a walk when I need some distraction.
 
 More details about me available in [my CV](/cv).
 
