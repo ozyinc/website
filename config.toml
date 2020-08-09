@@ -87,6 +87,11 @@ googleAnalytics = "UA-164775157-1"
     url = "cv/"
     weight = 15
 
+  [[menu.main]]
+    name = "🇹🇷"
+    url = "tr"
+    weight = 30
+
 [languages.en]
     languageName = "English"
     weight = 1
@@ -96,6 +101,8 @@ googleAnalytics = "UA-164775157-1"
 
 [languages.tr.params]
     homeSubtitle = "Başka bir geliştirici daha"
+    footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> | Ayrıca <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome</a> tarafından hazırlanan bazı ikonlar kullanılmıştır.'
+
 [[languages.tr.menu.main]]
     name = "Bazı düşünceler (İngilizce)"
     url = "../blog/"
@@ -110,6 +117,11 @@ googleAnalytics = "UA-164775157-1"
     name = "Ben kimim?"
     url = "about/"
     weight = 20
+
+[[languages.tr.menu.main]]
+    name = "🇺🇸"
+    url = "../"
+    weight = 30
 
 [privacy.googleAnalytics]
     anonymizeIP = true
