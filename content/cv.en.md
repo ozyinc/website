@@ -216,7 +216,7 @@ During my high school years I have participated in various MUN and EYP conferenc
 * ## Sergey Chekanskiy {{%cv/linkedin profile="sergeychekanskiy"%}}
   Current CDO of WunderMobility, former CDO of Stylelounge
 * ## Alexander Thiel {{%cv/linkedin profile="reasn"%}}
-  Current CTO of WunderMobility, former CTO of Stylelounge
+  Current Member of Investment Committee at Curious Capital, former CTO of Stylelounge
   
   *Recommendation letter available on request.*
 * ## Çağrı Karahan {{%cv/linkedin profile="cagrikarahan"%}}
