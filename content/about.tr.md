@@ -35,7 +35,7 @@ Ben Ozan, değer yaratmayı seven bir geliştiriciyim.
 
 ODTÜ Bilgisayar Mühendisliği Bölümü'nden Yüksek Şeref öğrencisi (GPA: 3.54) olarak mezun oldum. Lisans çalışmalarım boyunca okul içerisindeki katılım gösterdiğim çeşitli topluluklar için bazı yazılımlar üreterek kendimi ayrıca geliştirdim. 
 
-Eylülde Milan Politeknik Üniversitesi'nde (Politecnico di Milano), Bilgisayar Bilimi ve Mühendisliği üzerine Yüksek Lisans yapmaya başlayacağım.
+Eylülde Milan Politeknik Üniversitesi'nde (Politecnico di Milano), Bilgisayar Bilimi ve Mühendisliği üzerine Yüksek Lisans yapmaya başladım.
 
 
 ### Kişisel

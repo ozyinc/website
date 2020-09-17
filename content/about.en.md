@@ -19,7 +19,7 @@ Places I worked for:
   I have had my first software engineering experience here, which made me realize how different the actual working environment is from the homework we had at the university. I have created a simulator with other interns using Java and OMG DDS compliant libraries, which was my first peek into enterprise integration and QoS policies for data transfer.
 
 ### Education
-I have graduated from one of the best universities in Turkey (and leading in CS in Turkey, according to QS) with a high honors degree. During my academic career, I have improved myself by building software used by the organizations that I participated in. I am going to start my Master's Degree at Milan Polytechnic University in the upcoming days.
+I have graduated from one of the best universities in Turkey (and leading in CS in Turkey, according to QS) with a high honors degree. During my academic career, I have improved myself by building software used by the organizations that I participated in. I have started my Master's Degree at Milan Polytechnic University in mid-September, specializing in Machine Learning.
 
 
 ### Personal

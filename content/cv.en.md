@@ -103,6 +103,13 @@ I helped fellow engineering candidates from different departments to have a bett
 {{% /cv/section %}}
 
 {{% cv/section title="Education" %}}
+
+### Master of Science in Computer Science & Engineering
+#### [Politecnico di Milano School Of Industrial and Information Engineering](https://www.ingindinf.polimi.it/en/1) {{%right%}} 14 September 2020 - Current {{%/right%}}
+<br>
+
+I have started my Master's study at Milan Polytechnic University (Politecnico di Milano), specialized in Machine Learning.
+
 ### Bachelor of Science in Computer Engineering
 #### [METU CENG](https://ceng.metu.edu.tr/) {{%right%}} 1 October 2014 - 17 June 2019 {{%/right%}}
 <br>
