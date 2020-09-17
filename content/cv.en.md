@@ -50,7 +50,7 @@ Also, I took part in development of some components and infrastructure  tools fo
 <br>
 
 ### Software Engineering Intern / Remote Working Student
-##### Stylelounge (July 2018 - September 2018) {{% right %}} Hamburg, Germany{{% /right %}}
+##### Stylelounge (August 2017 - June 2018) {{% right %}} Hamburg, Germany{{% /right %}}
 I took an active role in improving varying microservices and modules of the infrastructure as a full-stack engineer (with a flavor of DevOps on Kubernetes).
 
 {{< cv/technologies
