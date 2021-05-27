@@ -22,12 +22,12 @@ jobs:
                 run: hugo --gc --minify
 
             -   name: Install SSH Client 🔑
-                uses: webfactory/ssh-agent@v0.2.0
+                uses: webfactory/ssh-agent@v0.5.2
                 with:
                     ssh-private-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
             -   name: Deploy to GitHub Pages
-                uses: JamesIves/github-pages-deploy-action@3.4.8
+                uses: JamesIves/github-pages-deploy-action@4.1.3
                 with:
                     BRANCH: master
                     FOLDER: public
