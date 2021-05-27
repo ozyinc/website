@@ -32,4 +32,4 @@ jobs:
                     branch: master
                     folder: public
                     repository-name: ozyinc/ozyinc.github.io
-                    ssh: true
+                    ssh-key: true
