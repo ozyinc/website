@@ -238,7 +238,7 @@ The topics that interest me professionally are system architecture design, DevOp
 
 Apart from the professional life; I am currently learning neuroscience and philosophy (Nietzsche is my favorite), I enjoy watching documentaries and sitcoms (mostly through Netflix), I listen to podcasts over Spotify (I would recommend Command Line Heroes and The Economist Radio) I play tennis and go skiing whenever I find the time for it. 
 
-My native language is Turkish, I am proficient in English (TOEFL: 113/120), I know Spanish enough to understand the language (B1), and I have a basic knowledge of German (A1).
+My native language is Turkish, I am proficient in English (TOEFL: 113/120), I know Spanish enough to understand the language (B1), and I have a basic knowledge of German (A1) and Italian (A1).
 
 I enjoy coding in Python, have a love/hate relationship with Javascript, however enjoy coding in Elm whenever I can. Think that I'm also fairly good at C, SQL and Java. I am interested in learning different programming languages, and would be fairly excited about any job opportunities if they were to include Rust, Go or C# other than previously mentioned languages. 
 {{%cv/detail%}}
