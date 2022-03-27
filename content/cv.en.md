@@ -1,7 +1,7 @@
 ---
 title: Ozan İncesulu's Curriculum Vitae
 date: 2020-04-25
-description: Seeking Part-time/Internship Opportunities in Software Development or Machine Learning. I specialize in Python and Typescript and have professional experience with Keras, Tensorflow, Kubernetes, Angular, and PHP. I am currently pursuing my Master's Degree in Computer Science at Politecnico di Milano and expect to graduate in September 2022. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems, and microservices. I also enjoy reading tech books, watching conferences and I try to apply the principles learned from them to my code.
+description:  Seeking Full-time Opportunities in Software Development or Machine Learning. I specialize in Python and Typescript and have professional experience with Keras, Tensorflow, Kubernetes, Angular, and PHP. I am currently pursuing my Master's Degree in Computer Science at Politecnico di Milano and expect to graduate in October 2022. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems, and microservices. I also enjoy reading tech books, watching conferences and I try to apply the principles learned from them to my code.
 type: cv
 layout: single
 extra: [
