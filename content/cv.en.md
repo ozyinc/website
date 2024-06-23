@@ -1,7 +1,7 @@
 ---
 title: Ozan İncesulu's Curriculum Vitae
 date: 2020-04-25
-description:  Seeking Full-time Opportunities in Software Development or Machine Learning. I specialize in Python and Typescript and have professional experience with Keras, Tensorflow, Kubernetes, Angular, and PHP. I am currently pursuing my Master's Degree in Computer Science at Politecnico di Milano and expect to graduate in October 2022. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems, and microservices. I also enjoy reading tech books, watching conferences and I try to apply the principles learned from them to my code.
+description:  Currently employed full-time @eBay as a Backend Software Engineer. I specialize in Java, Python and Typescript and have professional experience with Spring Boot, Keras, Kubernetes, Angular, React and PHP. I have graduated with a Master's Degree in Computer Science at Politecnico di Milano. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems, and microservices. I also enjoy reading tech books, watching conferences and I try to apply the principles learned from them to my code.
 type: cv
 layout: single
 extra: [
@@ -15,16 +15,27 @@ extra: [
 * Usage of **POSIX** environments (MacOS || Linux) on a daily basis.
 * Knowledge and experience with **Unit Testing, Integration Testing and TDD** 
 * Worked with **Docker \& Kubernetes** to build **CI/CD** pipelines. 
-* Knowledge of **SQL** databases; worked with SQLite, Google BigQuery, PostgreSQL. 
-* Knowledge of **NoSQL**, worked with MongoDB and ElasticSearch. 
-* **Web development** using Symfony, Django and Node.js libraries.
+* Knowledge of **SQL** databases; worked with Oracle, SQLite, Google BigQuery, PostgreSQL. 
+* Knowledge of **NoSQL**, worked with MongoDB, Clickhouse and ElasticSearch (OpenSearch). 
+* **Web development** using Spring Boot, Symfony, Django and Node.js libraries.
 * **Machine learning** with SVM, RF and NN using scikit-learn and Keras.
-* **Front-end development** with Angular, Elm, HTML, CSS and various libraries.
+* **Front-end development** with React, Angular, Elm, HTML, CSS and various libraries.
 {{% /cv/section %}}
 {{% cv/section title="Experience"%}}
+### Backend Software Engineer
+#### eBay (November 2022 - Current)
+I am currently working as a full time employee at [eBay](https://ebayinc.com). My work includes design and implementation of [eBay Ads](https://www.ebayads.com/) services. Some of the work I took part include:
+* Be a core developer for Promoted Listings Premium, took part in development, testing and release of Dynamic Bidding & Smart Targeting features.
+{{< cv/technologies
+"Java: https://www.java.com/en/"
+"Spring Boot: https://spring.io/projects/spring-boot/"
+"Oracle DB: https://www.oracle.com/database/"
+"ReactJS: https://react.dev/"
+"OpenSearch: https://opensearch.org/"
+>}}
 ### Freelancer
-#### (September 2019 - Current)
-I am currently working as a freelancer, helping companies and startups build the products they need. Some of my work include:
+#### (September 2019 - October 2022)
+I was working as a freelancer, helping companies and startups build the products they need. Some of my work include:
 * Development of the curriculum for an SEO module of an Erasmus+ project targeting export specialists.
 * Creation of calculators, focused on meeting the needs of people regarding current events, using various Web APIs and integrations.
     {{%cv/detail%}}    
@@ -105,10 +116,31 @@ I helped fellow engineering candidates from different departments to have a bett
 {{% cv/section title="Education" %}}
 
 ### Master of Science in Computer Science & Engineering
-#### [Politecnico di Milano School Of Industrial and Information Engineering](https://www.ingindinf.polimi.it/en/1) {{%right%}} 14 September 2020 - Current {{%/right%}}
+#### [Politecnico di Milano School Of Industrial and Information Engineering](https://www.ingindinf.polimi.it/en/1) {{%right%}} 14 September 2020 - 6 October 2022 {{%/right%}}
 <br>
 
-I have started my Master's study at Milan Polytechnic University (Politecnico di Milano), specialized in Machine Learning.
+**Final average: 26.5/30**
+
+I have graduated from my studies at Milan Polytechnic University (Politecnico di Milano) in 2022, specialized in Machine Learning.
+
+{{< cv/collapse title="Courses" isFirst="1">}}
+During my Master's Degree, I have the opportunity to attend to a variety of different classes to increase my comprehension regarding diverse areas of my profession. Some significant highlights of my time here are:
+
+{{< cv/collapse title="Software Engineering 2" >}}
+In this course I had the opportunity to work with fellow teammates on a project subsiding one of the problems that has arisen from the reality of the COVID-19 crisis that affects the whole world. 
+
+Even though the project was meant to be left at the prototype phase, the steps taken to plan and implement the whole project has been significant regarding the requirements' elicitation, design and implementation phases.
+
+The course was mainly graded based on the effort we put into identifying requirements, preparing the design document, implementing the project and acceptance testing another project of our peers.
+
+{{< /cv/collapse >}}
+
+{{< cv/collapse title="Artificial Neural Networks and Deep Learning" >}}
+In this course I have learned about different neural units, architectures, augmentation and evaluation methods for neural networks.
+I had previous experience with neural networks thanks to the Introduction to Machine Learning course during my Bachelor's
+{{< /cv/collapse >}}
+
+{{< /cv/collapse >}}
 
 ### Bachelor of Science in Computer Engineering
 #### [METU CENG](https://ceng.metu.edu.tr/) {{%right%}} 1 October 2014 - 17 June 2019 {{%/right%}}
