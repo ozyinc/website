@@ -24,15 +24,10 @@ jobs:
             -   name: Run Hugo
                 run: hugo --gc --minify
 
-            -   name: Install SSH Client 🔑
-                uses: webfactory/ssh-agent@v0.5.2
-                with:
-                    ssh-private-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-
             -   name: Deploy to GitHub Pages
                 uses: JamesIves/github-pages-deploy-action@4.1.3
                 with:
                     branch: master
                     folder: public
                     repository-name: ozyinc/ozyinc.github.io
-                    ssh-key: true
+                    ssh-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}

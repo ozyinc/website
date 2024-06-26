@@ -17,7 +17,7 @@ I have already submitted a Lightning talk to the organizer [Konstantin Klimashev
 I presented a quick demonstration of using `.http` files as an alternative to HTTP tools like Postman.
 
 The presentation was well received and after the talk, I was amazed by how many people were complimenting the talk.
-I have also been approached by [Josh Goldberg](https://www.linkedin.com/in/joshuakgoldbergcodes) (TODO: validate link) who was also there as a surprise guest sneak-peaking his talk to the audience, and he has suggested that the extensions could be further improved by integrations to Typescript and OpenAPI.
+I have also been approached by [Josh Goldberg](https://www.linkedin.com/in/joshuakgoldbergcodes) who was also there as a surprise guest sneak-peaking his talk to the audience, and he has suggested that the extensions could be further improved by integrations to Typescript and OpenAPI.
 I was excited to talk with many other speakers at the meetup and engage with listeners from a speaker's perspective.
 
 Overall I think it was a lovely start.
@@ -68,7 +68,7 @@ This talk featured a lot of interesting points about what being a senior (fittin
 * Solve problems, so the stakeholders don't have to worry about them much: If you solve the problems that other stakeholders worry about, more people will know you as the person who gets things done.
 * Involve engineers early: Most stakeholders don't know what complexity is. Engineers are the people who know best how the systems work and how they should work.
 * Document the time &&|| resource delta for the impact.
-* CIA Sabotage handbook link here
+* Don't sabotage: Here is a link to an [article](https://www.corporate-rebels.com/blog/cia-field-manual) quoting from CIA's handbook on how to sabotage effectively. Don't be one of those people that practice these methods to secretly sabotage the work of others.
 * If people ask questions about how you will do your work, this might indicate they don't trust you for transparency enough. This will yield less autonomy. Be proactive, make a decision yourself and others will come to you.
 * Solve the problem, not a different more difficult problem
 
