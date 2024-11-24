@@ -3,6 +3,7 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Ozan İncesulu"
 theme = "hermit-v2"
+author = "Ozan Incesulu"
 enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -15,9 +16,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 [markup.goldmark.renderer]
   unsafe = true
-
-[author]
-  name = "Ozan İncesulu"
 
 [taxonomies]
   # tag = "tags"
@@ -35,7 +33,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   themeColor = "#494f5c"
 
   homeSubtitle = "Just another developer"
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> | Some extra icons from <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome</a> '
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> | Some extra icons from <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome</a> '
   email = "contact@ozyinc.com"
   # bgImg = ""  # Homepage background-image URL
 
@@ -70,6 +68,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "github"
     url = "https://github.com/ozyinc/"
 
+  [params.author]
+    name = "Ozan İncesulu"
+
 [menu]
 
   [[menu.main]]
@@ -101,7 +102,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [languages.tr.params]
     homeSubtitle = "Başka bir geliştirici daha"
-    footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> | Ayrıca <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome</a> tarafından hazırlanan bazı ikonlar kullanılmıştır.'
+    footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> | Ayrıca <a href="https://github.com/FortAwesome/Font-Awesome/" target="_blank">Font Awesome</a> tarafından hazırlanan bazı ikonlar kullanılmıştır.'
 
 [[languages.tr.menu.main]]
     name = "Bazı düşünceler (İngilizce)"

@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{$style.Data.Integrity}}">
 <div id="page-wrap">
     {{- with .Params.img}}
-    <img src="{{.}}" alt="Photo of {{.Site.Author.name}}" id="pic"/>
+    <img src="{{.}}" alt="Photo of {{.Site.Params.Author.name}}" id="pic"/>
     {{- end }}
     <div id="contact-info" class="vcard">
 
@@ -31,7 +31,7 @@
           <a href='{{"/cv" | absURL }}' {{if not $detailed}} class="selected"{{end}}>Basic</a>
           <a href='{{"/cv-detailed" | absURL}}' {{if $detailed}} class="selected"{{end}}>Detailed</a>
           </nav>
-        <h1 class="fn">{{.Site.Author.name}}</h1>
+        <h1 class="fn">{{.Site.Params.Author.name}}</h1>
 
         <p>
             {{- with .Site.Params.phone}}

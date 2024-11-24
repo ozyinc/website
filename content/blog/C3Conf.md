@@ -2,6 +2,8 @@
 title: C3 Conf Amsterdam Insights
 date: 2024-06-18
 type: posts
+summary: "Insights from the C3: Code, Career, Creativity conference in Amsterdam, where I explored transformative talks and workshops. Highlights include strategies for transitioning from senior developer to leadership roles, emphasizing T-shaped skills, self-promotion, and aligning work with team outcomes. Interactive sessions like Senior Mindset shed light on productivity, team growth, and navigating organizational dynamics. I also attended a workshop on bridging communication gaps between developers and managers, learning empathy-driven approaches and collaboration frameworks. A keynote from John Romero delved into AI's role in creativity and its ethical implications. Other talks explored AI-driven productivity tools like GitHub Copilot and pragmatic career advice to secure promotions. My lightning talk at AdvancedJS Amsterdam pre-conference event on using .http files as alternatives to Postman was a hit. This post contains my insights from this lovely experience."
+# Summary made by ChatGPT, live is too short :)
 ---
 
 ## Introduction
