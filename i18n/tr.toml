@@ -18,7 +18,7 @@ other = "Arşiv"
 other = "Bkz:"
 
 [wordCount]
-other = "{{ .WordCount }} Sözcük"
+other = "Sözcük"
 
 [tableOfContents]
 other = "İçindekiler"
