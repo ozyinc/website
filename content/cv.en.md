@@ -4,6 +4,7 @@ date: 2020-04-25
 description:  Currently employed full-time @eBay as a Backend Software Engineer. I specialize in Java, Python and Typescript and have professional experience with Spring Boot, Keras, Kubernetes, Angular, React and PHP. I have graduated with a Master's Degree in Computer Science at Politecnico di Milano. I believe I can adapt to different environments and tech stacks easily, thus I have experience with working with new technologies, monolithic systems, and microservices. I also enjoy reading tech books, watching conferences and I try to apply the principles learned from them to my code.
 type: cv
 layout: single
+aliases: ['cv-detailed']
 extra: [
     {icon: "icon-linkedin-squared", link: "https://linkedin.com/in/ozan-incesulu", text: "/ozan-incesulu"},
     {icon: "icon-github-circled", link: "https://github.com/ozyinc/", text: "/ozyinc"},
