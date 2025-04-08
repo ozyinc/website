@@ -2,7 +2,7 @@
 title: JFall 2024 Insights
 date: 2024-11-16
 type: posts
-draft: true
+draft: false
 summary: "This year, I attended the largest Java conference in the Netherlands, which featured exciting discussions and innovative insights relevant to software engineering. One standout keynote stressed the significance of open-source contributions, highlighting how proactive engagement can enhance organizational practices. Although the talk acknowledged the overlooked work behind effective open-source solutions, it also illustrated a novel approach: prioritizing pull requests over issue reporting to inspire contributions. Another memorable speech explored coping with change, emphasizing empathy, wisdom, and bravery as key emotions vital for navigating the evolving tech landscape. The presenter reflected on generational shifts in tech and encouraged open-mindedness and dialogue across experiences. Additionally, I learned technical optimizations from the \"1 Billion Row Challenge \" focusing on improving I/O operations in Java. Key strategies included utilizing parallel streams and memory APIs to enhance data processing speed. Finally, we delved into cognitive biases affecting decision-making in engineering. From the Ikea effect to the bike shed effect, addressing these biases can lead to better collaboration and product outcomes. This conference not only informed but also inspired a renewed commitment to best practices in software development."
 # Summary made by ChatGPT, live is too short :)
 ---
